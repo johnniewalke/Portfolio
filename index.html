@@ -1,5 +1,7 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Johnnie Portfolio</title>
@@ -65,24 +67,18 @@
         <p style="color: white; font-size: 24px;">Análise de dados</p>
       </div>
     </div>
-    <div class="contact-box">
-      <a href="#">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="#">
-        <i class="fab fa-github"></i>
-      </a>
-      <a href="#">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="#">
-        <i class="fab fa-facebook"></i>
-      </a>
-      <a href="#">
-        <i class="fab fa-whatsapp"></i>
-      </a>
-    </div>
+
     <p style="color: white; font-size: 18px;">E-mail: johnniegiacomelli@gmail.com</p>
+
+    <form action="enviar.php" method="post">
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto"><br><br>
+        <label for="telefone">Telefone/Whatsapp:</label>
+        <input type="text" id="telefone" name="telefone"><br><br>
+        <label for="mensagem">Texto:</label>
+        <textarea id="mensagem" name="mensagem"></textarea><br><br>
+        <input type="submit" value="Enviar">
+      </form>
   </body>
   </html>
   

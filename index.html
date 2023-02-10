@@ -5,60 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Johnnie Portfolio</title>
-  <style>
-    body {
-      background: linear-gradient(to bottom, lightblue, darkblue);
-      font-family: Arial, sans-serif;
-      height: 100vh;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-    h1 {
-      color: white;
-      text-shadow: 1px 1px black;
-      font-size: 36px;
-    }
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-    }
-    .img-box {
-      width: 25%;
-      text-align: center;
-      margin: 20px;
-    }
-    .img-box img {
-      width: 100%;
-      height: auto;
-      opacity: 0.5;
-    }
-    .contact-box {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 20px;
-    }
-    .contact-box a {
-      color: white;
-      margin: 0 10px;
-      text-decoration: none;
-      font-size: 36px;
-    }
-    .contact-box a:hover {
-      color: lightblue;
-    }
-  </style>
+  <link rel="stylesheet" href="css.css">
 </head>
 <body>
     <h1>Johnnie Menges Giacomelli</h1>
     <p>Cientista da computação</p>
     <ul>
-        <li><a href="img/Johnnie_Giacomelli_Curriculo_Resumido.docx.pdf" download="Johnnie_Giacomelli_Curriculo_Resumido.docx.pdf" type="aplication/pdf" target="_blank"> <strong> Curriculum</strong> </a></li>
+        <li><a href="img/Johnnie_Giacomelli_Curriculo_Resumido.docx.pdf" download="Johnnie_Giacomelli_Curriculo_Resumido.docx.pdf" type="aplication/pdf" target="_blank"> <strong> Curriculum</strong> </li></a>
     </ul>
     <div class="container">
       <div class="img-box">
@@ -79,7 +32,7 @@
         <label for="telefone" style="color: white; font-size: 14px;">Telefone/Whatsapp:</label>
         <input type="text" id="telefone" name="telefone"><br><br>
         <label for="mensagem" style="color: white; font-size: 14px;">Texto:</label>
-        <textarea id="mensagem" name="mensagem" style="width: 381px; height: 61px;"></textarea>
+        <textarea id="mensagem" name="mensagem" style="width: 300px; height: 14px;"></textarea>
 
         <input type="submit" value="Enviar">
       </form>

@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    border: 2px solid red;
+}
+
+header{
+    border: 2px solid black;    
+}
+
+aside{
+    border: 2px solid green;
+}
+
+body>.container {
+    border: 2px solid burlywood;
+}
+
+footer{
+    border: 2px solid blue;
+}

@@ -1,24 +1,35 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     border: 2px solid red;
+    margin: 2px;
+    padding: 2px;
+    height: 100vh;
+    width: 100vw;
+    flex: 1 1 auto;
 }
 
-header{
+header {
     border: 2px solid black;    
 }
 
-aside{
+nav {
+    text-decoration: none;
+    
+}
+
+aside {
     border: 2px solid green;
 }
 
-body>.container {
+div#container {
     border: 2px solid burlywood;
 }
 
-footer{
+footer {
     border: 2px solid blue;
+    background-color: lightgray
 }

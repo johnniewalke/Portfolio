@@ -12,6 +12,7 @@ body {
     height: 100vh;
     width: 100vw;
     flex: 1 1 auto;
+
 }
 
 header {
@@ -36,7 +37,6 @@ div#container {
 
 
 .session-footer-support {
-    display: flex;
     border: 2px solid rgb(255, 0, 191);
     height: 50px;
 }
@@ -47,11 +47,14 @@ footer {
     background-color: lightgray
     height: 20px;
     width: 100%;
-    align-items: center;
     display: flex;
-    justify-content: center;
 }
 
 footer>ul {
     list-style: none;
+}
+
+footer>ul>li>:nth-child(1) {
+    color: brown;
+    
 }

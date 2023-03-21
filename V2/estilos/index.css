@@ -55,24 +55,23 @@ header>nav>a {
 
 aside {
     border: 2px solid green;
-    height: 200px;
+
 }
 
 div#container {
     border: 2px solid burlywood;
-    height: 300px;
+
 }
 
 .session-footer-support {
     border: 2px solid rgb(255, 0, 191);
-    height: 50px;
+
 }
 
 footer {
     margin-top: auto;
     border: 2px solid blue;
     background-color: lightgray
-    height: 20px;
     width: 100%;
     display: flex;
 }

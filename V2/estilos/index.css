@@ -70,13 +70,62 @@ body {
 .topo {
     width: 100%;
     height: 297px;
-    display: flex;
+    flex-direction: column;
     align-items: center;
     background-color: #00AAED;
     margin: 0px;
     padding: 0px;
     color: white;
     background-image: url(../img/fundoTopo.png);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #0056b3;
+    outline: none;
+}
+
+.button:active {
+    background-color: #0056b3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25) inset;
+}
+
+.button:focus {
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+    .buttons {
+      flex-direction: column;
+    }
+
+    .button {
+      width: 100%;
+    }
+
+    .button + .button {
+      margin-top: 16px;
+    }
 }
 
 main {
@@ -99,13 +148,29 @@ header>nav>a {
     color: white;
 }
 
+.topoName {
+    margin: 100px;
+    order: 1;
+    display: inline-block;
+}
+
 .topoPerfil {
-    margin: 10px;
+    order: 2;
+    margin: 70px 0px 0px 0px;
+    display: inline-block;
+    align-items: right;
+    justify-content: right;
+}
+
+.social {
+    order: 3;
+    display: block;
 }
 
 #img-perfil {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    align-items: bottom;
 }
 
 .topoPerfil>img {

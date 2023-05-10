@@ -227,14 +227,13 @@ div#container {
 }
 
 footer {
-    margin: 5px;
-    padding: 5px;
     margin-top: auto;
     border: 2px solid blue;
     background-color: lightgray;
     width: 100%;
-    display: flex;
     cursor: pointer;
+    text-align: center;
+    justify-content: center;
 }
 
 footer>ul {

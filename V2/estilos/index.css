@@ -179,7 +179,7 @@ header>nav>a {
     position: absolute;
     flex: 2;
     z-index: 500;
-    margin: 10px 0px 0px 550px;
+    margin: 0px 0px 0px 550px;
 }
 
 .social {
@@ -190,15 +190,6 @@ header>nav>a {
     height: 40px;
     margin: 0px;
     padding: 0px 0px 0px 20px;
-}
-
-#img-perfil {
-    width: 200px;
-    height: 200px;
-}
-
-.topoPerfil>img {
-    border: 2px solid white;
 }
 
 .social {

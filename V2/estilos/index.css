@@ -201,14 +201,35 @@ header>nav>a {
     color: white;
 }
 
+.conhecimento {
+    display: flex;
+    flex-direction: row;
+}
+
+.softwares {
+    margin: 5px;
+    display: block;
+    flex-direction: row;
+}
+
+#software1 {
+    display: flex;
+    margin: 10px;
+}
+
+.hardSkills {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+#habilidade1, #habilidade2 {
+    display: flex;
+    margin: 10px;
+}
 
 aside {
     border: 2px solid green;
-
-}
-
-div#container {
-    border: 2px solid burlywood;
 
 }
 

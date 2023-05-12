@@ -212,8 +212,9 @@ header>nav>a {
     flex-direction: row;
 }
 
-#software1 {
+#software1, #software2, #software3{
     display: flex;
+    
     margin: 10px;
 }
 

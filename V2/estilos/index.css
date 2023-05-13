@@ -202,19 +202,26 @@ header>nav>a {
 }
 
 .conhecimento {
+
+}
+
+.container1 {
+    border: black solid 5px;
+    width: 500px;
     display: flex;
-    flex-direction: row;
 }
 
 .softwares {
+    border: red solid 5px;
+    width: 510px;
+    text-align: center;
     margin: 5px;
     display: block;
     flex-direction: row;
 }
 
-#software1, #software2, #software3{
+#software1, #software2, #software3, #software4{
     display: flex;
-    
     margin: 10px;
 }
 
@@ -224,7 +231,7 @@ header>nav>a {
     flex-direction: row;
 }
 
-#habilidade1, #habilidade2 {
+#habilidade1, #habilidade2, #habilidade3, #habilidade4{
     display: flex;
     margin: 10px;
 }

@@ -205,12 +205,14 @@ header>nav>a {
     display: flex;
     width: 100%;
     border: green solid 5px;
+
 }
 
 .container {
     border: black solid 5px;
-    width: 500px;
+    width: 100%;
     display: flex;
+
 }
 
 .softwares {
@@ -219,6 +221,7 @@ header>nav>a {
     margin: 5px;
     display: block;
     flex-direction: row;
+
 }
 
 .softwares>h2 {
@@ -227,8 +230,8 @@ header>nav>a {
 
 #software{
     display: flex;
-    margin: 10px;
-    width: 250px;
+    border: blue solid 5px;
+    width: 100%;
 
 }
 

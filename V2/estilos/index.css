@@ -205,7 +205,7 @@ header>nav>a {
 
 }
 
-.container1 {
+.container {
     border: black solid 5px;
     width: 500px;
     display: flex;
@@ -220,7 +220,7 @@ header>nav>a {
     flex-direction: row;
 }
 
-#software1, #software2, #software3, #software4{
+#software{
     display: flex;
     margin: 10px;
 }

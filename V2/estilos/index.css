@@ -204,19 +204,17 @@ header>nav>a {
 .conhecimento {
     display: flex;
     width: 100%;
-    border: green solid 5px;
 
 }
 
 .container {
-    border: black solid 5px;
     width: 100%;
     display: flex;
+    margin: 4px;
 
 }
 
 .softwares {
-    border: red solid 5px;
     width: 100%;
     margin: 5px;
 
@@ -228,7 +226,6 @@ header>nav>a {
 
 #software{
     display: flex;
-    border: blue solid 5px;
     width: 100%;
 
 }

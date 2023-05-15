@@ -245,15 +245,35 @@ header>nav>a {
 }
 
 .quemSouEuEsquerda {
-    width: 35%;
+    width: 40%;
+    margin: 0px 0px 0px 10px;
 }
+.quemSouEuEsquerda>h3,cite {
+    color: #c4343c;
+    font-family: "Raleway", sans-serif;
+}
+
+  blockquote::before {
+    
+  }
+  
 
 .alinhamentoDireita {
     float: right;
 }
 
 .quemSouEuDireita {
-    width: 35%;
+    width: 40%;
+}
+
+.quemSouEuDireita>h1 {
+    color: rgb(168, 44, 44);
+    font-size: 56px;
+    font-family: "Raleway", sans-serif;
+}
+
+.quemSouEuDireita>p {
+    font-family: "Raleway", sans-serif;
 }
 
 .session-footer-support {

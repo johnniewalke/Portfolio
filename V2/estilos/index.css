@@ -248,15 +248,20 @@ header>nav>a {
     width: 40%;
     margin: 0px 0px 0px 10px;
 }
-.quemSouEuEsquerda>h3,cite {
+
+.quemSouEuEsquerda>h3 {
+
+    margin: 0px 0px 20px 20px;
+}
+.quemSouEuEsquerda>h3,cite,.ocupacao>h3 {
     color: #c4343c;
     font-family: "Raleway", sans-serif;
+    letter-spacing: 4px;
 }
 
-  blockquote::before {
-    
-  }
-  
+.ocupacao {
+    margin: 50px;
+}
 
 .alinhamentoDireita {
     float: right;

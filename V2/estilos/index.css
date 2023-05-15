@@ -120,12 +120,12 @@ body {
     box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
 }
 
-.social>#imgGitHub:hover {
+.social>a>#imgGitHub:hover {
     content: url("../img/icon_github2.png");
     cursor: pointer;
 }
 
-.social>#imgLinkedin:hover {
+.social>a>#imgLinkedin:hover {
     content: url("../img/icon_linkedin2.png");
     cursor: pointer;
 }

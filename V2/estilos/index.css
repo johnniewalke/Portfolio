@@ -204,14 +204,13 @@ header>nav>a {
 .conhecimento {
     display: flex;
     width: 100%;
-
+    
 }
 
 .container {
     width: 100%;
     display: flex;
     margin: 4px;
-
 }
 
 .softwares {
@@ -221,7 +220,7 @@ header>nav>a {
 }
 
 .softwares>h2 {
-    text-align: center;
+    text-align: left;
 }
 
 #software{

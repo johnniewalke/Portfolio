@@ -311,23 +311,31 @@ header>nav>a {
     width: 100%;
     height: 600px;
     color: white;
-
 }
 
-.oQueFacoServicos_AnaliseDeDados,.oQueFacoServicos_AnaliseDeDados>p {
-    justify-content: center;
-    align-items: center;
+.oQueFacoServicos_AnaliseDeDados {
+    margin: 0px 0px 0px 0px;
+}
+
+.organizaAnaliseDeDados {
     text-align: center;
 }
 
-.oQueFacoServicos_DesenvolvimentoWeb,.oQueFacoServicos_DesenvolvimentoWeb>p {
-    border: green solid 1px;
+.organizaAnaliseDeDados>p {
+    text-align: center;
+}
+
+.oQueFacoServicos_DesenvolvimentoWeb {
     display: inline-block;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 45%;
+    margin: 0px 0px 0px calc(50% - 450px);
+    height: 200px;
+    width: 400px;
 }
+
+.organizaDesenvolvimentoWeb {
+    text-align: center;
+}
+
 
 .oQueFacoServicos_Prototipacao,.oQueFacoServicos_Prototipacao>p {
     border: yellow solid 1px;
@@ -335,15 +343,15 @@ header>nav>a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 45%;
+    margin: 0px 0px 0px 0px;
 }
-
-.div_DesenvolvimentoWeb_Prototipacao {
+/*
+.separacao_DesenvolvimentoWeb_Prototipacao {
     height: 190px;
     width: 9%;
     display: inline-block;
     border: blue solid 1px;
-}
+}*/
 
 .oQueFacoServicos_Suporte_ao_Cliente {
     justify-content: center;

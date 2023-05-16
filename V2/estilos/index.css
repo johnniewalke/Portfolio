@@ -291,7 +291,7 @@ header>nav>a {
 .oQueFaco {
     background-color: black;
     width: 100%;
-    height: 110px;
+    height: 90px;
     color: white;
     padding: 10px 0px 0px 0px;
 }
@@ -311,6 +311,35 @@ header>nav>a {
     width: 100%;
     height: 600px;
     color: white;
+
+
+}
+
+.oQueFacoServicos_AnaliseDeDados,.oQueFacoServicos_AnaliseDeDados>p {
+    border: red solid 1px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.oQueFacoServicos_DesenvolvimentoWeb {
+    border: green solid 1px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.oQueFacoServicos_Prototipacao {
+    border: yellow solid 1px;
+    display: inline-block;
+}
+
+.oQueFacoServicos_Suporte_ao_Cliente {
+    border: grey solid 1px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .session-footer-support {

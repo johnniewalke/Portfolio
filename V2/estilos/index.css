@@ -312,31 +312,40 @@ header>nav>a {
     height: 600px;
     color: white;
 
-
 }
 
 .oQueFacoServicos_AnaliseDeDados,.oQueFacoServicos_AnaliseDeDados>p {
-    border: red solid 1px;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.oQueFacoServicos_DesenvolvimentoWeb {
+.oQueFacoServicos_DesenvolvimentoWeb,.oQueFacoServicos_DesenvolvimentoWeb>p {
     border: green solid 1px;
     display: inline-block;
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 45%;
 }
 
-.oQueFacoServicos_Prototipacao {
+.oQueFacoServicos_Prototipacao,.oQueFacoServicos_Prototipacao>p {
     border: yellow solid 1px;
     display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 45%;
+}
+
+.div_DesenvolvimentoWeb_Prototipacao {
+    height: 190px;
+    width: 9%;
+    display: inline-block;
+    border: blue solid 1px;
 }
 
 .oQueFacoServicos_Suporte_ao_Cliente {
-    border: grey solid 1px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -344,7 +353,6 @@ header>nav>a {
 
 .session-footer-support {
     border: 2px solid rgb(255, 0, 191);
-
 }
 
 footer {

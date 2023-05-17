@@ -66,6 +66,18 @@
         margin: auto;
         border: 1px solid darkblue;
         border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topo {
+        width: 100%;
+        border: red solid 1px;
+    }
+    
+    .topo>img {
+        width: 50px;
+        height: 50px;
     }
 
     footer {
@@ -81,24 +93,21 @@
     <main>
         <h1>Fabio Danton de Oliveira Machado</h1>
         <p>Engenheiro da computação em processo de conclusão</p>
+        <div class="topo">
+            <ul>
+                <li>Home</li>
+                <li>Projetos</li>
+                <li>Serviços</li>
+                <li>Contato</li>
+            </ul>
 
-        <ul>
-            <li>Home</li>
-            <li>Projetos</li>
-            <li>Serviços</li>
-            <li>Contato</li>
-        </ul>
-
-            <h2>
-                Interesse
-            </h2>
-        <div class="container">
-
-          <div class="img-box">
+            <h2>Interesse</h2>
             <img src="../img/front-end-banner.jpg" alt="Imagem relacionada a front-end">
             <p style="color: rgb(0, 0, 0); font-size: 24px;">Front-end</p>
-          </div>
-    
+        </div>
+        <div class="topo2">
+
+        </div>
         <p style="color: rgb(0, 0, 0); font-size: 18px;">E-mail: fabiodanton1201@gmail.com</p>
     </main>
   </body>

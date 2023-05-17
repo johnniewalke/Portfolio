@@ -365,6 +365,13 @@ header>nav>a {
     margin: 0px 0px 0px calc(50% - 40px);
 }
 
+.separacaoRed {
+    margin: 10px 0px;
+    height: 52px;
+    background-image: url(../img/separacao_red.png);
+}
+
+
 .session-footer-support {
     border: 2px solid rgb(255, 0, 191);
 }

@@ -314,14 +314,13 @@ header>nav>a {
 }
 
 .oQueFacoServicos_AnaliseDeDados {
-    margin: 0px 0px 0px 0px;
-}
-
-.organizaAnaliseDeDados {
+    margin: 0px 0px 0px calc(50% - 150px);
+    height: 200px;
+    width: 300px;
     text-align: center;
 }
 
-.organizaAnaliseDeDados>p {
+.organizaAnaliseDeDados {
     text-align: center;
 }
 

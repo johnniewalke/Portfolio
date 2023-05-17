@@ -338,7 +338,7 @@ header>nav>a {
 
 .oQueFacoServicos_Prototipacao {
     display: inline-block;
-    margin: 0px 0px 0px calc(50% - 595px);
+    margin: 0px 0px 0px 130px;
     height: 200px;
     width: 400px;
 }
@@ -348,9 +348,12 @@ header>nav>a {
 }
 
 .oQueFacoServicos_Suporte_ao_Cliente {
-    margin: 20px 0px 0px 33%;
+    margin: 0px 0px 0px calc(50% - 250px);
     height: 220px;
     width: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .organizaSupCliente>h1,
@@ -361,9 +364,7 @@ header>nav>a {
     text-align: center;
 }
 
-.organizaSupCliente>img {
-    margin: 0px 0px 0px calc(50% - 40px);
-}
+
 
 .separacaoRed {
     margin: 10px 0px;

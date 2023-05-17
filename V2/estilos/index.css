@@ -327,7 +327,7 @@ header>nav>a {
 
 .oQueFacoServicos_DesenvolvimentoWeb {
     display: inline-block;
-    margin: 0px 0px 0px calc(50% - 450px);
+    margin: 0px 0px 0px calc(50% - 480px);
     height: 200px;
     width: 400px;
 }
@@ -336,22 +336,16 @@ header>nav>a {
     text-align: center;
 }
 
-
-.oQueFacoServicos_Prototipacao,.oQueFacoServicos_Prototipacao>p {
-    border: yellow solid 1px;
+.oQueFacoServicos_Prototipacao {
     display: inline-block;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px calc(50% - 570px);
+    height: 200px;
+    width: 400px;
 }
-/*
-.separacao_DesenvolvimentoWeb_Prototipacao {
-    height: 190px;
-    width: 9%;
-    display: inline-block;
-    border: blue solid 1px;
-}*/
+
+.organizaProrotipacao{
+    text-align: center;
+}
 
 .oQueFacoServicos_Suporte_ao_Cliente {
     justify-content: center;

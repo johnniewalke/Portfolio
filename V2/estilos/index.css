@@ -189,6 +189,7 @@ header>nav>a {
 
 .conhecimento {
     display: flex;
+    justify-content: center;
     width: 100%;
 }
 

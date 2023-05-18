@@ -398,9 +398,9 @@ header>nav>a {
 
 .portfolioItens:hover::before {
     opacity: 1;
- }
+}
 
- .botao_Ver_Mais {
+.botao_Ver_Mais {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -413,16 +413,39 @@ header>nav>a {
     border-radius: 5px;
     transition: background-color 0.3s;
     visibility: hidden; /* Botão invisível por padrão */
-  }
+}
   
-  .portfolioItens:hover .botao_Ver_Mais {
+.portfolioItens:hover .botao_Ver_Mais {
     visibility: visible; /* Botão visível ao passar o mouse na div */
-  }
+}
 
-  .botao_Ver_Mais:hover {
+.botao_Ver_Mais:hover {
     background-color: #000;
     color: #fff;
-  }
+}
+
+#trabalhei {
+    margin: 25px 0px;
+    text-align: center;
+}
+
+#trabalhei>h2 {
+    margin: 0px 0px 25px 0px;
+}
+
+.iconEmpresas {
+    background: linear-gradient(to bottom, white 50%, black 50%);
+}
+
+.iconEmpresas>img {
+    margin: 0px 25px;
+}
+
+#projetos {
+    color: white;
+    background-color: black;
+
+}
 
 footer {
     margin-top: auto;

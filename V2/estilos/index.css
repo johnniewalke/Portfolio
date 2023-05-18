@@ -130,20 +130,6 @@ body {
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-    .buttons {
-      flex-direction: column;
-    }
-
-    .button {
-      width: 100%;
-    }
-
-    .button + .button {
-      margin-top: 16px;
-    }
-}
-
 main {
     padding: 0px;
     margin: 0px;
@@ -413,7 +399,7 @@ header>nav>a {
     opacity: 1;
  }
 
- .buttonLink {
+ .botao_Ver_Mais {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -428,11 +414,11 @@ header>nav>a {
     visibility: hidden; /* Botão invisível por padrão */
   }
   
-  .portfolioItens:hover .buttonLink {
+  .portfolioItens:hover .botao_Ver_Mais {
     visibility: visible; /* Botão visível ao passar o mouse na div */
   }
 
-  .buttonLink:hover {
+  .botao_Ver_Mais:hover {
     background-color: #000;
     color: #fff;
   }

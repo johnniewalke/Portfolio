@@ -427,7 +427,7 @@ header>nav>a {
 #trabalhei {
     margin: 25px 0px;
     text-align: center;
-    background: red;
+    letter-spacing: 4px;
 }
 
 #trabalhei>h2 {
@@ -436,17 +436,20 @@ header>nav>a {
 
 .iconEmpresas {
     background: linear-gradient(to bottom, white 50%, black 50%);
+    text-align: center;
 }
 
 .iconEmpresas>img {
     margin: 0px 25px;
 }
 
-#projetos {
+#testes {
     color: white;
     background-color: black;
-
+    padding: 50px 0px;
+    text-align: center;
 }
+
 
 footer {
     margin-top: auto;

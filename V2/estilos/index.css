@@ -562,7 +562,36 @@ header>nav>a {
 
 /*Novo teste Neuroticismo: 57%*/
 
+.corEsquerda4, .corDireita4 {
+    top: 0;
+    bottom: 0;
+    border-radius: 40px;
+}
 
+.corEsquerda4 {
+    background-color: #ED7766;
+    left: 0;
+    width: 57%;
+    text-align: left;
+}
+
+.corEsquerda4>span {
+    margin: 0px 25px;
+
+}
+
+.corDireita4 {
+    background-color: #FFF2F0;
+    left: 57%;
+    width: 43%;
+    text-align: right;
+    margin: 0px 0px 0px 5px;
+}
+
+.corDireita4>span {
+    margin: 0px 25px;
+    color: #ED7766;
+}
 
 /*Fim teste Primeira Escolha*/
 .divBetween {

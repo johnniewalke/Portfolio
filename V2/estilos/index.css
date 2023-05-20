@@ -530,6 +530,41 @@ header>nav>a {
 
 /*Novo teste Extroversão: 48%*/
 
+.corEsquerda3, .corDireita3 {
+    top: 0;
+    bottom: 0;
+    border-radius: 40px;
+}
+
+.corEsquerda3 {
+    background-color: #FFF3EA;
+    left: 0;
+    width: 48%;
+    text-align: left;
+}
+
+.corEsquerda3>span {
+    margin: 0px 25px;
+    color: #EF7E31;
+}
+
+.corDireita3 {
+    background-color: #EF7E31;
+    left: 48%;
+    width: 52%;
+    text-align: right;
+    margin: 0px 0px 0px 5px;
+}
+
+.corDireita3>span {
+    margin: 0px 25px;
+}
+
+/*Novo teste Neuroticismo: 57%*/
+
+
+
+/*Fim teste Primeira Escolha*/
 .divBetween {
     margin: 0px 50px;
     display: flex;

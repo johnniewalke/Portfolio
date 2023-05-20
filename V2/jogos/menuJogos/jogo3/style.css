@@ -1,0 +1,50 @@
+.botao1{
+	width:240;
+	height: 50;
+	background: url(img/botao1EscolherJogos.png) no-repeat;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.botao1:hover{
+	background: url(img/botao1EscolherJogos.png);
+	background-position: 0px -50px;
+	cursor:pointer;
+}
+
+.botao2{
+	width:240;
+	height: 50;
+	background: url(img/botao2ComoJogar.png) no-repeat;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 280px;
+
+}
+
+.botao2:hover{
+	background: url(img/botao2ComoJogar.png);
+	background-position: 0px -50px;
+	cursor:pointer;
+}
+
+
+.botao3{
+	width:240;
+	height: 50;
+	background: url(img/botao3ReiniciarJogo.png) no-repeat;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 560px;
+
+}
+
+.botao3:hover{
+	background: url(img/botao3ReiniciarJogo.png);
+	background-position: 0px -50px;
+	cursor:pointer;
+}

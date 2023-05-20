@@ -1,0 +1,50 @@
+.botao1{
+	width:211;
+	height: 74;
+	background: url(img/botao1Voltar.png) no-repeat;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.botao1:hover{
+	background: url(img/botao1Voltar.png);
+	background-position: 0px -74px;
+	cursor:pointer;
+}
+
+.botao2{
+	width:211;
+	height: 74;
+	background: url(img/botao2Jogar.png) no-repeat;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 282px;
+
+}
+
+.botao2:hover{
+	background: url(img/botao2Jogar.png);
+	background-position: 0px -74px;
+	cursor:pointer;
+}
+
+
+.botao3{
+	width:211;
+	height: 74;
+	background: url(img/botao3Proximo.png) no-repeat;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 588px;
+
+}
+
+.botao3:hover{
+	background: url(img/botao3Proximo.png);
+	background-position: 0px -74px;
+	cursor:pointer;
+}

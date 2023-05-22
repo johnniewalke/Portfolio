@@ -593,6 +593,39 @@ header>nav>a {
     color: #ED7766;
 }
 
+/*Novo teste Socialização: 78%*/
+
+.corEsquerda5, .corDireita5 {
+    top: 0;
+    bottom: 0;
+    border-radius: 40px;
+}
+
+.corEsquerda5 {
+    background-color: #DC4BCE;
+    left: 0;
+    width: 78%;
+    text-align: left;
+}
+
+.corEsquerda5>span {
+    margin: 0px 25px;
+
+}
+
+.corDireita5 {
+    background-color: #FFF0FD;
+    left: 78%;
+    width: 22%;
+    text-align: right;
+    margin: 0px 0px 0px 5px;
+}
+
+.corDireita5>span {
+    margin: 0px 25px;
+    color: #DC4BCE;
+}
+
 /*Fim teste Primeira Escolha*/
 .divBetween {
     margin: 0px 50px;

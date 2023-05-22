@@ -450,14 +450,36 @@ header>nav>a {
     align-items: center;
 }
 
-.textoTestePerfil{
-    margin: 25px 50px 0px 50px;
+.tituloTesteMindsight {
+    display: flex;
+    align-items: center;
 }
+
+.textoTestePerfil{
+    display: flex;
+    align-items: top;
+    margin: 10px 50px 0px 50px;
+}
+
+.textoTestePerfil>img {
+    height: 65%;
+    width: 65%;
+}
+
+.textoTestePerfil>span>p {
+    margin: 25px 0px 0px 25px;
+
+}
+
+.tituloTesteMindsight>h2, .textoTestePerfil>span {
+    letter-spacing: 4px;
+}
+
 
 .teste_Perfil_Mindsight {
     margin: 25px 0px;
     padding: 10px;
-    background-color: rgba(245, 245, 245, 0.514);
+    background-color: rgba(196, 196, 196, 0.514);
     border-radius: 20px;
     z-index: 1;
     border: rgb(44, 115, 248) solid 2px;
@@ -467,7 +489,7 @@ header>nav>a {
 .blocoPM {
     display: flex;
     align-items: center;
-    width: 450px;
+    width: 420px;
     z-index: 2;
     border: whitesmoke 1px solid;
 }

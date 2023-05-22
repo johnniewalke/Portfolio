@@ -457,18 +457,25 @@ header>nav>a {
 .teste_Perfil_Mindsight {
     margin: 25px 0px;
     padding: 10px;
+    background-color: rgba(245, 245, 245, 0.514);
+    border-radius: 20px;
+    z-index: 1;
+    border: rgb(44, 115, 248) solid 2px;
+    box-shadow: whitesmoke 0px 0px 5px 2px;
 }
 
 .blocoPM {
     display: flex;
     align-items: center;
-    border: whitesmoke 1px solid;
     width: 450px;
+    z-index: 2;
+    border: whitesmoke 1px solid;
 }
 
 .nomeBlocoPM {
     text-align: left;
     width: 220px;
+    padding: 0px 0px 0px 10px;
 }
 
 .barraPM {

@@ -476,7 +476,7 @@ header>nav>a {
 .corEsquerda1 {
     background-color: #4389DD;
     left: 0;
-    width: 67%;
+    width: 57%;
     text-align: left;
 }
 
@@ -486,8 +486,8 @@ header>nav>a {
 
 .corDireita1 {
     background-color: #d0e3fc;
-    left: 67%;
-    width: 33%;
+    left: 57%;
+    width: 43%;
     text-align: right;
     margin: 0px 0px 0px 5px;
 }
@@ -507,7 +507,7 @@ header>nav>a {
 .corEsquerda2 {
     background-color: #BBFFFD;
     left: 0;
-    width: 41%;
+    width: 59%;
     text-align: left;
 }
 
@@ -518,8 +518,8 @@ header>nav>a {
 
 .corDireita2 {
     background-color: #45ADAA;
-    left: 41%;
-    width: 59%;
+    left: 59%;
+    width: 41%;
     text-align: right;
     margin: 0px 0px 0px 5px;
 }
@@ -537,7 +537,7 @@ header>nav>a {
 }
 
 .corEsquerda3 {
-    background-color: #FFF3EA;
+    background-color: #ffdec4;
     left: 0;
     width: 48%;
     text-align: left;
@@ -571,7 +571,7 @@ header>nav>a {
 .corEsquerda4 {
     background-color: #ED7766;
     left: 0;
-    width: 57%;
+    width: 37%;
     text-align: left;
 }
 
@@ -581,9 +581,9 @@ header>nav>a {
 }
 
 .corDireita4 {
-    background-color: #FFF2F0;
-    left: 57%;
-    width: 43%;
+    background-color: #fcd5d0;
+    left: 37%;
+    width: 63%;
     text-align: right;
     margin: 0px 0px 0px 5px;
 }
@@ -614,7 +614,7 @@ header>nav>a {
 }
 
 .corDireita5 {
-    background-color: #FFF0FD;
+    background-color: #fcd5f7;
     left: 78%;
     width: 22%;
     text-align: right;

@@ -444,21 +444,25 @@ header>nav>a {
 }
 
 /*Inicio Testes Mindsight */
+/*Teste Perfil */
 .mindsightTestePerfil {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.tituloTesteMindsight {
+.tituloTestes {
     display: flex;
     align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .textoTestePerfil{
     display: flex;
     align-items: top;
     margin: 10px 50px 0px 50px;
+
 }
 
 .textoTestePerfil>img {
@@ -468,16 +472,15 @@ header>nav>a {
 
 .textoTestePerfil>span>p {
     margin: 25px 0px 0px 25px;
-
 }
 
-.tituloTesteMindsight>h2, .textoTestePerfil>span {
+.tituloTestes>h2, .textoTestePerfil>span {
     letter-spacing: 4px;
 }
 
 
 .teste_Perfil_Mindsight {
-    margin: 25px 0px;
+    margin: 10px 0px;
     padding: 10px;
     background-color: rgba(196, 196, 196, 0.514);
     border-radius: 20px;
@@ -502,6 +505,29 @@ header>nav>a {
 
 .barraPM {
     justify-content: right;
+}
+
+/*Teste Situacional e Inferência*/
+.mindsightTesteSituacional>h2,.mindsightTesteInferencia>h2{
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.mindsightTesteSituacional,.mindsightTesteInferencia{
+    margin: 25px 150px;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+.testeSituacionalResultado, .testeInferenciaResultado{
+    text-align: justify;
+    margin: 25px 0px;
+    padding: 5px;
+    background-color: rgba(196, 196, 196, 0.514);
+    border-radius: 20px;
+    z-index: 1;
+    border: rgb(44, 115, 248) solid 2px;
+    box-shadow: whitesmoke 0px 0px 5px 2px;
 }
 
 /*Inicio Testes Primeira Escolha*/

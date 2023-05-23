@@ -507,13 +507,13 @@ header>nav>a {
     justify-content: right;
 }
 
-/*Teste Situacional e Inferência*/
-.mindsightTesteSituacional>h2,.mindsightTesteInferencia>h2{
+/*Teste Situacional, Inferência e Estilo de Trabalho* */
+.mindsightTesteSituacional>h2,.mindsightTesteInferencia>h2,.mindsightTesteEstiloTrabalho>h2{
     text-align: center;
     letter-spacing: 4px;
 }
 
-.mindsightTesteSituacional,.mindsightTesteInferencia{
+.mindsightTesteSituacional,.mindsightTesteInferencia,.mindsightTesteEstiloTrabalho{
     margin: 25px 150px;
     text-align: justify;
     letter-spacing: 2px;
@@ -529,6 +529,10 @@ header>nav>a {
     border: rgb(44, 115, 248) solid 2px;
     box-shadow: whitesmoke 0px 0px 5px 2px;
 }
+
+/*Teste Teste de /
+
+
 
 /*Inicio Testes Primeira Escolha*/
 #testes {

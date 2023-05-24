@@ -101,6 +101,7 @@ body {
     text-decoration: none;
     color: #000000;
     background-color: #ffffff;
+    border: rgba(0, 162, 255, 0.774) 1px solid;
     border-radius: 40px;
     cursor: pointer;
 }
@@ -142,6 +143,7 @@ body p {
     text-align: justify;
     padding: 2px 50px 2px 10px;
 }
+
 header {
     padding: 0px;
     margin: 0px;
@@ -160,7 +162,15 @@ header>nav>a {
     text-align: center;
     z-index: 500;
     margin: 40px 0px 0px 20px;
+}
 
+.topoName>h1, .topoName>h3 {
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 132, 255);
+    text-decoration-thickness: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /*primeiro deslocamento horizontal, segundo deslocamento vertical, terceiro desfoque*/
+    -webkit-text-stroke: 1px rgba(0, 162, 255, 0.637);
+    letter-spacing: 4px;
 }
 
 .topoPerfil {
@@ -762,6 +772,7 @@ footer>ul>li>:nth-child(1) {
     padding: 10px;
     cursor: pointer;
     color: black;
+    border: grey solid 1px;
     border-radius: 40px;
 }
 

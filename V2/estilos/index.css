@@ -789,21 +789,33 @@ footer>ul>li>:nth-child(1) {
     background-color: #a39f9f;
 }
 
-#toggleT_Inferencia,#toggleT_Caracteristicas 
+#toggleT_Inferencia,#toggleT_Caracteristicas,#toggleT_EstiloTrabalho,#toggleT_Inferencia,#toggleT_Situacional 
 {
     display: none;
 }
 
-#minhaDivT_Inferencia,#minhaDivT_Caracteristicas 
+#minhaDivT_Inferencia,#minhaDivT_Caracteristicas,#minhaDivT_EstiloTrabalho,#minhaDivT_Inferencia,#minhaDivT_Situacional 
 {
     display: none;
 }
 
-/**/
+/*Ocultadores*/
 #toggleT_Inferencia:checked ~ #minhaDivT_Inferencia {
     display: block;
 }
 
 #toggleT_Caracteristicas:checked ~ #minhaDivT_Caracteristicas {
+    display: block;
+}
+
+#toggleT_EstiloTrabalho:checked ~ #minhaDivT_EstiloTrabalho {
+    display: block;
+}
+
+#toggleT_Inferencia:checked ~ #minhaDivT_Inferencia {
+    display: block;
+}
+
+#togglet_Situacional:checked ~ #minhaDivT_Situacional {
     display: block;
 }

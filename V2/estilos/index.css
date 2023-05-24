@@ -73,13 +73,15 @@ body {
     height: 228px;
     display: flex;
     flex-direction: row;
-    background-color: #00AAED;
+    /*background-color: #00AAED;*/
     margin: 0px;
     padding: 0px;
     color: rgb(255, 255, 255);
     /*background-image: url(../img/fundoTopo.png);*/
     overflow: hidden;
     position: relative;
+    background-image: url(../img/fundo_header.png);
+    background-size: 100% auto;
 }
 
 .buttons {

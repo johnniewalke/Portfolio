@@ -542,11 +542,14 @@ header>nav>a {
     box-shadow: whitesmoke 0px 0px 5px 2px;
 }
 
-/*Teste Teste de /
+/*Testes Primeira Escolha*/
+.testesPrimeiraEscolha {
+    margin: 10px 0px 0px 0px;
+    background-color: white;
+}
 
 
-
-/*Inicio Testes Primeira Escolha*/
+/*Inicio Teste Primeira Escolha Características*/
 #testes {
     color: white;
     background-color: black;

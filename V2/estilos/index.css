@@ -848,12 +848,12 @@ footer>ul>li>:nth-child(1) {
     background-color: #a39f9f;
 }
 /*Ocultadores*/
-#toggle_icon_html,#toggle_icon_css,#toggle_icon_phaser,#toggle_icon_sql,#toggle_icon_scrum,#toggle_icon_uml,#toggle_icon_PlayIA,#toggle_icon_vba,#toggle_icon_dax,#toggle_icon_js,#toggle_icon_py
+#toggle_icon_html,#toggle_icon_css,#toggle_icon_phaser,#toggle_icon_sql,#toggle_icon_scrum,#toggle_icon_uml,#toggle_icon_PlayIA,#toggle_icon_vba,#toggle_icon_dax,#toggle_icon_js,#toggle_icon_py,#toggle_icon_java
 {
     display: none;
 }
 
-#div_mostrar_html,#div_mostrar_css,#div_mostrar_phaser,#div_mostrar_sql,#div_mostrar_scrum,#div_mostrar_uml,#div_mostrar_PlayIA,#div_mostrar_vba,#div_mostrar_dax,#div_mostrar_js,#div_mostrar_py
+#div_mostrar_html,#div_mostrar_css,#div_mostrar_phaser,#div_mostrar_sql,#div_mostrar_scrum,#div_mostrar_uml,#div_mostrar_PlayIA,#div_mostrar_vba,#div_mostrar_dax,#div_mostrar_js,#div_mostrar_py,#div_mostrar_java
 {
     display: none;
 }
@@ -900,6 +900,10 @@ footer>ul>li>:nth-child(1) {
 }
 
 #toggle_icon_py:checked ~ #div_mostrar_py {
+    display: block;
+}
+
+#toggle_icon_java:checked ~ #div_mostrar_java {
     display: block;
 }
 

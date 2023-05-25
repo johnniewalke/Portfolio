@@ -812,7 +812,6 @@ footer>ul>li>:nth-child(1) {
     justify-content: center;
     align-items: center;
     margin: 5px 0px;
-    
 }
 
 .botao_ocultar_c_e_f>img {
@@ -828,18 +827,38 @@ footer>ul>li>:nth-child(1) {
 .botao_ocultar_c_e_f>img:hover {
     background-color: #a39f9f;
 }
-
-#toggle_icon_html,#toggle_icon_css,#toggle_icon_phaser
-{
-    display: none;
+/* botão exclusivo*/
+.botao_ocultar_c_e_f_exclusivo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
 }
 
-#div_mostrar_html,#div_mostrar_css,#div_mostrar_phaser
-{
-    display: none;
+.botao_ocultar_c_e_f_exclusivo>img {
+    background-color: #fd6363;
+    padding: 5px;
+    cursor: pointer;
+    color: black;
+    border: grey solid 1px;
+    border-radius: 40px;
 }
 
+.botao_ocultar_c_e_f_exclusivo>img:hover {
+    background-color: #a39f9f;
+}
 /*Ocultadores*/
+#toggle_icon_html,#toggle_icon_css,#toggle_icon_phaser,#toggle_icon_sql,#toggle_icon_scrum,#toggle_icon_uml,#toggle_icon_PlayIA,#toggle_icon_vba,#toggle_icon_dax,#toggle_icon_js,#toggle_icon_py
+{
+    display: none;
+}
+
+#div_mostrar_html,#div_mostrar_css,#div_mostrar_phaser,#div_mostrar_sql,#div_mostrar_scrum,#div_mostrar_uml,#div_mostrar_PlayIA,#div_mostrar_vba,#div_mostrar_dax,#div_mostrar_js,#div_mostrar_py
+{
+    display: none;
+}
+
+/*Ocultadores de ligação*/
 #toggle_icon_html:checked ~ #div_mostrar_html {
     display: block;
 }
@@ -849,6 +868,38 @@ footer>ul>li>:nth-child(1) {
 }
 
 #toggle_icon_phaser:checked ~ #div_mostrar_phaser {
+    display: block;
+}
+
+#toggle_icon_sql:checked ~ #div_mostrar_sql {
+    display: block;
+}
+
+#toggle_icon_scrum:checked ~ #div_mostrar_scrum {
+    display: block;
+}
+
+#toggle_icon_uml:checked ~ #div_mostrar_uml {
+    display: block;
+}
+
+#toggle_icon_PlayIA:checked ~ #div_mostrar_PlayIA {
+    display: block;
+}
+
+#toggle_icon_vba:checked ~ #div_mostrar_vba {
+    display: block;
+}
+
+#toggle_icon_dax:checked ~ #div_mostrar_dax {
+    display: block;
+}
+
+#toggle_icon_js:checked ~ #div_mostrar_js {
+    display: block;
+}
+
+#toggle_icon_py:checked ~ #div_mostrar_py {
     display: block;
 }
 

@@ -804,3 +804,58 @@ footer>ul>li>:nth-child(1) {
 #toggleT_Perfil:checked ~ #minhaDivT_Perfil {
     display: block;
 }
+/*Final botoes testes*/
+
+/*Botões Conhecimentos e Ferramentas*/
+.botao_ocultar_c_e_f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+    
+}
+
+.botao_ocultar_c_e_f>img {
+    background-color: #e9e9e9;
+    padding: 5px;
+    cursor: pointer;
+    color: black;
+    border: grey solid 1px;
+    border-radius: 40px;
+
+}
+
+.botao_ocultar_c_e_f>img:hover {
+    background-color: #a39f9f;
+}
+
+#toggle_icon_html
+{
+    display: none;
+}
+
+#div_mostrar_html
+{
+    display: none;
+}
+
+/*Ocultadores*/
+#toggle_icon_html:checked ~ #div_mostrar_html {
+    display: block;
+}
+
+.conhecimentos_e_ferramentas {
+    display: flex;
+    flex-direction: row;
+}
+
+.blocos_conhecimentos{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 0px 5px;
+}
+
+.text_icon{
+    margin: 15px 0px 0px 2px;
+}
+

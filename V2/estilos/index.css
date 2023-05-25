@@ -829,12 +829,12 @@ footer>ul>li>:nth-child(1) {
     background-color: #a39f9f;
 }
 
-#toggle_icon_html,#toggle_icon_css
+#toggle_icon_html,#toggle_icon_css,#toggle_icon_phaser
 {
     display: none;
 }
 
-#div_mostrar_html,#div_mostrar_css
+#div_mostrar_html,#div_mostrar_css,#div_mostrar_phaser
 {
     display: none;
 }
@@ -845,6 +845,10 @@ footer>ul>li>:nth-child(1) {
 }
 
 #toggle_icon_css:checked ~ #div_mostrar_css {
+    display: block;
+}
+
+#toggle_icon_phaser:checked ~ #div_mostrar_phaser {
     display: block;
 }
 

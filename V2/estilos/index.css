@@ -854,11 +854,15 @@ footer>ul>li>:nth-child(1) {
 
 /*Fim botões Conhecimentos e Ferramentas*/
 .conhecimentos_e_ferramentas {
+    text-align: center;
+}
+
+.blocos_conhecimentos {
     display: flex;
     flex-direction: row;
 }
 
-.blocos_conhecimentos{
+.bloco_conhecimentos{
     display: flex;
     flex-direction: row;
     margin: 0px 0px 0px 5px;

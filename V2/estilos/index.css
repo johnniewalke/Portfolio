@@ -829,12 +829,12 @@ footer>ul>li>:nth-child(1) {
     background-color: #a39f9f;
 }
 
-#toggle_icon_html
+#toggle_icon_html,#toggle_icon_css
 {
     display: none;
 }
 
-#div_mostrar_html
+#div_mostrar_html,#div_mostrar_css
 {
     display: none;
 }
@@ -844,6 +844,11 @@ footer>ul>li>:nth-child(1) {
     display: block;
 }
 
+#toggle_icon_css:checked ~ #div_mostrar_css {
+    display: block;
+}
+
+/*Fim botões Conhecimentos e Ferramentas*/
 .conhecimentos_e_ferramentas {
     display: flex;
     flex-direction: row;

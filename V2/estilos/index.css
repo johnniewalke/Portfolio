@@ -83,7 +83,6 @@ header {
 }
 
 header>nav>a {
-
     font-size: 25px;
     color: white;
 }
@@ -1000,11 +999,12 @@ footer {
 .contato_whats {
     display: flex;
     align-items: center;
+    flex-direction: column;
     margin: 25px 50px 50px 50px;
     color: white;
 }
 
-.contato_whats>h4 {
+.numero_whats {
     display: inline-block;
 }
 
@@ -1014,6 +1014,11 @@ footer {
     margin: 5px;
 }
 
-.contato_whats>a>h4:hover,.contato_whats>a>h2:hover {
+.numero_whats>a>h4:hover,.numero_whats>a>h2:hover {
     color: #333;
+}
+
+.tel_whats>a>img:hover {
+    content: url("../img/icon_whatsapp_Hover.png");
+    cursor: pointer;
 }

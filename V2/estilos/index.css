@@ -8,7 +8,7 @@
     -webkit-font-smoothing: antialiased; /*fonte com alinhamento fino*/
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden; /* esconde a rolagem horizontal */
-    font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-family: "Raleway", sans-serif;
 }
 
 header {
@@ -824,18 +824,48 @@ header>nav>a {
 .botao_ocultar_c_e_f_exclusivo>img:hover {
     background-color: #a39f9f;
 }
+/*Botão Conhecimento e Ferramentas*/
+.blocos_conhecimentos,.margin_bt_c_e_f{
+    margin: 25px 0px;
+}
+
+.bt_ocultar_c_e_f span {
+    text-align: center;
+    color: #c4343c;
+    letter-spacing: 4px;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.bt_ocultar_c_e_f span:hover, .bt_ocultar_c_e_f span:focus {
+    color: #471c1c;
+    letter-spacing: 6px;
+}
+
+.bt_ocultar_c_e_f span:active {
+    color: #4b4b4b;
+}
+
 /*Ocultadores*/
-#toggle_icon_html,#toggle_icon_css,#toggle_icon_phaser,#toggle_icon_sql,#toggle_icon_scrum,#toggle_icon_uml,#toggle_icon_PlayIA,#toggle_icon_vba,#toggle_icon_dax,#toggle_icon_js,#toggle_icon_py,#toggle_icon_java,#toggle_icon_vsc,#toggle_icon_github,#toggle_icon_bi,#toggle_icon_sheets,#toggle_icon_excel,#toggle_icon_datastudio,#toggle_icon_googleslides,#toggle_icon_figma,#toggle_icon_grafana,#toggle_icon_postgre,#toggle_icon_photoshop,#toggle_icon_zabbix,#toggle_icon_dude,#toggle_icon_paintnet,#toggle_icon_mk,#toggle_icon_anm,#toggle_icon_unm,#toggle_icon_gpt,#toggle_icon_diagrams
+#toggle_Conhecimentos,#toggle_Ferramentas,#toggle_icon_html,#toggle_icon_css,#toggle_icon_phaser,#toggle_icon_sql,#toggle_icon_scrum,#toggle_icon_uml,#toggle_icon_PlayIA,#toggle_icon_vba,#toggle_icon_dax,#toggle_icon_js,#toggle_icon_py,#toggle_icon_java,#toggle_icon_vsc,#toggle_icon_github,#toggle_icon_bi,#toggle_icon_sheets,#toggle_icon_excel,#toggle_icon_datastudio,#toggle_icon_googleslides,#toggle_icon_figma,#toggle_icon_grafana,#toggle_icon_postgre,#toggle_icon_photoshop,#toggle_icon_zabbix,#toggle_icon_dude,#toggle_icon_paintnet,#toggle_icon_mk,#toggle_icon_anm,#toggle_icon_unm,#toggle_icon_gpt,#toggle_icon_diagrams
 {
     display: none;
 }
 
-#div_mostrar_html,#div_mostrar_css,#div_mostrar_phaser,#div_mostrar_sql,#div_mostrar_scrum,#div_mostrar_uml,#div_mostrar_PlayIA,#div_mostrar_vba,#div_mostrar_dax,#div_mostrar_js,#div_mostrar_py,#div_mostrar_java,#div_mostrar_vsc,#div_mostrar_github,#div_mostrar_bi,#div_mostrar_sheets,#div_mostrar_excel,#div_mostrar_datastudio,#div_mostrar_googleslides,#div_mostrar_figma,#div_mostrar_grafana,#div_mostrar_postgre,#div_mostrar_photoshop,#div_mostrar_zabbix,#div_mostrar_dude,#div_mostrar_paintnet,#div_mostrar_mk,#div_mostrar_anm,#div_mostrar_unm,#div_mostrar_gpt,#div_mostrar_diagrams
+#div_mostrar_Conhecimentos,#div_mostrar_Ferramentas,#div_mostrar_html,#div_mostrar_css,#div_mostrar_phaser,#div_mostrar_sql,#div_mostrar_scrum,#div_mostrar_uml,#div_mostrar_PlayIA,#div_mostrar_vba,#div_mostrar_dax,#div_mostrar_js,#div_mostrar_py,#div_mostrar_java,#div_mostrar_vsc,#div_mostrar_github,#div_mostrar_bi,#div_mostrar_sheets,#div_mostrar_excel,#div_mostrar_datastudio,#div_mostrar_googleslides,#div_mostrar_figma,#div_mostrar_grafana,#div_mostrar_postgre,#div_mostrar_photoshop,#div_mostrar_zabbix,#div_mostrar_dude,#div_mostrar_paintnet,#div_mostrar_mk,#div_mostrar_anm,#div_mostrar_unm,#div_mostrar_gpt,#div_mostrar_diagrams
 {
     display: none;
 }
 
 /*Ocultadores de ligação*/
+#toggle_Conhecimentos:checked ~ #div_mostrar_Conhecimentos {
+    display: block;
+}
+
+#toggle_Ferramentas:checked ~ #div_mostrar_Ferramentas {
+    display: block;
+}
+
 #toggle_icon_html:checked ~ #div_mostrar_html {
     display: block;
 }
@@ -1022,3 +1052,4 @@ footer {
     content: url("../img/icon_whatsapp_Hover.png");
     cursor: pointer;
 }
+

@@ -15,10 +15,10 @@
 
 <body>
     <header>
-        <button id="menu-toggle">Menu</button>
-        <nav id="menu">
+        <button id="menu-header">Menu</button>
+        <nav id="header">
                 <ul>
-                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="#menu-header">HOME</a></li>
                   <li><a href="#quemSouEu">QUEM SOU EU</a></li>
                   <li><a href="#separador_1">O QUE FAÇO</a></li>
                   <li><a href="downloads/Johnnie_Giacomelli_Curriculo_Resumido_16_05_2023.docx.pdf" download target="_blank">CURRÍCULO</a></li>
@@ -33,7 +33,7 @@
                 <h3>CIÊNTISTA DA COMPUTAÇÃO</h3>
 
                 <div class="buttons">
-                    <a href="#" class="button" role="button">Portfólio</a>
+                    <a href="#portfolio" class="button" role="button">Portfólio</a>
                     <a href="#testes" class="button" role="button">Testes</a>
                 </div>
 
@@ -257,7 +257,7 @@
                     </div>
                 </div>
 
-                <div class="blocos_ferramentas">
+                <div class="bloco_ferramentas">
                     <div class="bloco_ferramentas">
                         <!-- Ocultar Conteúdo da div EstiloTrabalho -->
                         <input type="checkbox" id="toggle_icon_github" />
@@ -499,181 +499,39 @@
                     </div>
                 </div>
 
-
-            </div>
-
-        </div>
-<!--
-        <div class="conhecimento">
-
-            <div class="softwares">
-                <p><h2>Ferramentas</h2>
-                <div class="container">
-                    <div id="software">    
-                        <img src="img/visual-studio-code.png" alt="Software Visual Studio Code">
-                        <span>
-                        <h4>Visual Studio Code</h4>
-                        <h5>Editor de código-fonte</h5>
-                        </span>
-                    </div>
-
-                    <div id="software">    
-                        <img src="img/icon_githubDesktop.png" alt="Software GitHub Desktop">
-                        <span>
-                        <h4>GitHub Desktop</h4>
-                        <h5>Software de versionamento</h5>
-                        </span>
+                <div class="bloco_ferramentas">
+                    <!-- Ocultar Conteúdo da div EstiloTrabalho -->
+                    <input type="checkbox" id="toggle_icon_gpt" />
+                    <label for="toggle_icon_gpt" class="botao_ocultar_c_e_f"> <img src="img/chatgpt.png" alt="Chat GPT"></label>
+                    <div id="div_mostrar_gpt">
+                        <!-- Mostrar Conteúdo da div -->
+                        <div class="text_icon">
+                            <span>
+                            <h4><strong>Chat GPT</strong></h4>
+                            <h5>Assistente Virtual</h5>
+                            </span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="container">
-                    <div id="software">    
-                        <img src="img/icon_power_bi.png" alt="Software Microsoft Power BI">
-                        <span>
-                        <h4>Microsoft Power BI</h4>
-                        <h5>Análise de dados</h5>
-                        </span>
-                    </div>
-
-                    <div id="software">    
-                        <img src="img/icon_google_sheets.png" alt="Software GitHub Desktop">
-                        <span>
-                        <h4>Google Sheets</h4>
-                        <h5>Planilhas</h5>
-                        </span>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div id="software">    
-                        <img src="img/icon_excel.png" alt="Software Excel">
-                        <span>
-                        <h4>Excel</h4>
-                        <h5>Planilhas</h5>
-                        </span>
-                    </div>
-
-                    <div id="software">    
-                        <img src="img/icon_google_data_studio.png" alt="Software Google Data Studio">
-                        <span>
-                        <h4>Google Data Studio</h4>
-                        <h5>Criação de relatórios</h5>
-                        </span>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div id="software">    
-                        <img src="img/icon_google_slides.png" alt="Software Google Slides">
-                        <span>
-                        <h4>Google Slides</h4>
-                        <h5>Design de dashboards</h5>
-                        </span>
-                    </div>
-
-                    <div id="software">    
-                        <img src="img/icon_grafana.png" alt="Software Grafana">
-                        <span>
-                        <h4>Grafana</h4>
-                        <h5>Design de dashboards</h5>
-                        </span>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div id="software">    
-                        <img src="img/icon_postgre.png" alt="Banco de dados PostgreSQL">
-                        <span>
-                        <h4>PostgreSQL</h4>
-                        <h5>Banco de dados</h5>
-                        </span>
-                    </div>
-
-                    <div id="software">    
-                        <img src="img/icon_photoshop.png" alt="Software Photoshop">
-                        <span>
-                        <h4>Photoshop</h4>
-                        <h5>Editor de imagens</h5>
-                        </span>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div id="software">    
-                        <img src="img/icon_zabbix.png" alt="Zabbix">
-                        <span>
-                        <h4>Zabbix</h4>
-                        <h5>Software de monitoramento</h5>
-                        </span>
-                    </div>
-
-                    <div id="software">    
-                        <img src="img/icon_dude.png" alt="DUDE">
-                        <span>
-                        <h4>The DUDE</h4>
-                        <h5>Software de monitoramento</h5>
-                        </span>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div id="software">    
-                        <img src="img/icon_paint.net.png" alt="Paint.net">
-                        <span>
-                        <h4>Paint.net</h4>
-                        <h5>Editor de imagens</h5>
-                        </span>
-                    </div>
-
-                    <div id="software">    
-                        <img src="img/icon_mk.png" alt="MK Solutions">
-                        <span>
-                        <h4>MK Solutions</h4>
-                        <h5>Sistema de gestão</h5>
-                        </span>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div id="software">    
-                        <img src="img/icon_anm.png" alt="ANM 2000">
-                        <span>
-                        <h4>ANM 2000</h4>
-                        <h5>Gestão de redes</h5>
-                        </span>
-                    </div>
-
-                    <div id="software">    
-                        <img src="img/icon_unm.png" alt="UNM 2000">
-                        <span>
-                        <h4>UNM 2000</h4>
-                        <h5>Gestão de redes</h5>
-                        </span>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div id="software">    
-                        <img src="img/chatgpt.png" alt="ChatGPT">
-                        <span>
-                        <h4>ChatGPT</h4>
-                        <h5>Assistente virtual</h5>
-                        </span>
-                    </div>
-
-                    <div id="software">    
-                        <img src="img/diagramns.png" alt="Diagrams">
-                        <span>
-                        <h4>Diagrams</h4>
-                        <h5>Desenho gráfico</h5>
-                        </span>
+                <div class="bloco_ferramentas">
+                    <!-- Ocultar Conteúdo da div EstiloTrabalho -->
+                    <input type="checkbox" id="toggle_icon_diagrams" />
+                    <label for="toggle_icon_diagrams" class="botao_ocultar_c_e_f"> <img src="img/diagramns.png" alt="Diagrams"></label>
+                    <div id="div_mostrar_diagrams">
+                        <!-- Mostrar Conteúdo da div -->
+                        <div class="text_icon">
+                            <span>
+                            <h4><strong>Diagrams</strong></h4>
+                            <h5>Desenho Gráfico</h5>
+                            </span>
+                        </div>
                     </div>
                 </div>
 
             </div>
-
         </div>
--->
+
         <div id="quemSouEu">
             <div class="quemSouEuEsquerda">
                 <h3>CITAÇÃO</h3>
@@ -819,6 +677,7 @@
         
         <div class="separacaoRed"></div>
 
+        <!--Portfólio impressão 3D
         <div id="portfolio">
 
             <div class="portfolioTexto">
@@ -842,7 +701,9 @@
                 <a href="#" class="botao_Ver_Mais" target="_blank">Ver mais</a>
                 <img src="img/projetos/3D/yoda3D.png" alt="Impressões 3D">
             </div>
-            <!--
+
+        </div>-->
+                    <!--
             <div class="portfolioItens">
                 <a href="#" class="botao_Ver_Mais" target="_blank">Ver mais</a>
                 <img src="img/projetos/3D/jiraya3D.png" alt="Impressões 3D">
@@ -858,7 +719,6 @@
                 <img src="img/projetos/3D/doby3D.png" alt="Impressões 3D">
             </div>
             -->
-        </div>
 
         <div id="trabalhei">
             <h2>Empresas onde trabalhei</h2>

@@ -722,30 +722,14 @@ header>nav>a {
     color: #DC4BCE;
 }
 
-/*Fim teste Primeira Escolha*/
+
 .divBetween {
     margin: 0px 50px;
     display: flex;
     justify-content: space-between;
 }
+/*Fim teste Primeira Escolha*/
 
-footer {
-    margin-top: auto;
-    background-color: lightgray;
-    width: 100%;
-    cursor: pointer;
-    text-align: center;
-    justify-content: center;
-}
-
-footer>ul {
-    list-style: none;
-}
-
-footer>ul>li>:nth-child(1) {
-    color: brown;
-    
-}
 /*Botões de ocultar e mostrar*/
 .botao_ocultar {
     display: flex;
@@ -1005,3 +989,31 @@ footer>ul>li>:nth-child(1) {
     margin: 15px 0px 0px 2px;
 }
 
+footer {
+    display: flex;
+    margin: 50px 0px 0px 0px;
+    background-color: rgb(122, 111, 111);
+    height: 400px;
+    width: 100%;
+}
+
+.contato_whats {
+    display: flex;
+    align-items: center;
+    margin: 25px 50px 50px 50px;
+    color: white;
+}
+
+.contato_whats>h4 {
+    display: inline-block;
+}
+
+.contato_whats>a{
+    text-decoration: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.contato_whats>a>h4:hover,.contato_whats>a>h2:hover {
+    color: #333;
+}

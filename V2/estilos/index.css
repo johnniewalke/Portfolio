@@ -66,8 +66,9 @@ body {
 }
 
 main {
-    padding: 0px;
-    margin: 0px;
+  width: 100%;
+  max-width: 1200px; /* Largura máxima do conteúdo */
+  margin: 0 auto; /* Margens automáticas para centralizar o conteúdo */
 }
 
 body p {
@@ -238,7 +239,7 @@ header>nav>a {
 }
 
 .quemSouEuEsquerda {
-    width: 60%;
+    width: 42%;
     margin: 0px 0px 0px 10px;
 }
 
@@ -261,6 +262,7 @@ header>nav>a {
 }
 
 .quemSouEuDireita {
+    margin: 0px 0px 0px 50px;
     width: 40%;
 }
 

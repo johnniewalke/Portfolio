@@ -1003,7 +1003,7 @@ header>nav>a {
 /********************/
 .container {
     position: relative;
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(255, 255, 255);
     margin: 0px;
     z-index: 1;
     text-align: center;
@@ -1044,6 +1044,22 @@ header>nav>a {
     z-index: -1;
 }
 
+.blocos_ferramentas::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    height: 180px;
+    background-color: rgb(182, 182, 182);
+    border-radius: 0 0 50% 50%;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
 
 
 .blocos_conhecimentos,.blocos_ferramentas {

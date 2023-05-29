@@ -342,7 +342,8 @@ header>nav>a {
 
 .oQueFacoServicos_Suporte_ao_Cliente {
     margin: 0px 0px 0px calc(50% - 250px);
-    height: 220px;
+    padding: 20px 0px 0px 0px;
+    height: 230px;
     width: 500px;
     justify-content: center;
     align-items: center;

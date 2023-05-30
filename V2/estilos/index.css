@@ -1111,6 +1111,7 @@ footer {
     flex-direction: column;
     margin: 25px 50px 50px 50px;
     color: white;
+    width: 30%;
 }
 
 .numero_whats {
@@ -1137,8 +1138,20 @@ footer {
     margin: 0px;
     color: ghostwhite;
     height: 400px;
-    width: 800px;
+    width: 65%;
     align-items: center;
     text-align: center;
     justify-content: center;
+}
+
+.footer_redes_sociais>h3 {
+    color: rgb(168, 44, 44);
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 4px;
+}
+
+.footer_redes_sociais {
+    display: flex;
+    flex-direction: column;
+    color: #4b4b4b;
 }

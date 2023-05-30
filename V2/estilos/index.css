@@ -24,7 +24,7 @@ nav {
     left: 0;
     width: 100%;
     z-index: 999;
-    height: 35px;
+    height: 40px;
 }
 
 nav ul {
@@ -1092,6 +1092,10 @@ header>nav>a {
     margin: 15px 0px 0px 2px;
 }
 
+.bloco_conhecimentos .text_icon {
+    color: white;
+}
+
 footer {
     display: flex;
     margin: 50px 0px 0px 0px;
@@ -1128,3 +1132,13 @@ footer {
     cursor: pointer;
 }
 
+.conteudoFooter {
+    background-color: rgba(0, 0, 0, 0.507);
+    margin: 0px;
+    color: ghostwhite;
+    height: 400px;
+    width: 800px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

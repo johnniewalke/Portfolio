@@ -1155,3 +1155,12 @@ footer {
     flex-direction: column;
     color: #4b4b4b;
 }
+
+.botao-email {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #eaeaea;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+  }

@@ -1144,7 +1144,7 @@ footer {
     justify-content: center;
 }
 
-.footer_redes_sociais>h3 {
+.footer_redes_sociais>h3,.footer_menu>h3 {
     color: rgb(168, 44, 44);
     font-family: "Raleway", sans-serif;
     letter-spacing: 4px;

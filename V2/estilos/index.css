@@ -235,6 +235,7 @@ header>nav>a {
 
 #quemSouEu {
     display: flex;
+    flex-direction: row;
     padding: 50px 0px 0px 0px;
 }
 
@@ -243,14 +244,17 @@ header>nav>a {
     margin: 0px 0px 0px 10px;
 }
 
-.quemSouEuEsquerda>h3 {
+.quemSouEuCentro {
 
+}
+
+.quemSouEuEsquerda>h3 {
     margin: 0px 0px 20px 20px;
 }
 .quemSouEuEsquerda>h3,cite,.ocupacao>h3 {
     color: #c4343c;
     font-family: "Raleway", sans-serif;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
 .ocupacao {

@@ -1229,64 +1229,86 @@ footer {
 /*Fim Teste Estilo de Trabalho*/
 
 /* Novo Footer*/
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 30px 10px;
+/* Colors */
+:root {
+  --primary-color: #333;
+  --secondary-color: #fff;
+  --social-icon-color: #fff;
+}
+
+/* Footer */
+#rodape {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 30px 10px;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30px;
 }
 
-.footer-info {
-    flex: 1;
+.footer-menu {
+  flex: 1 1 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
 }
 
-.footer-info h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
+.footer-menu h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
-.footer-info p {
-    font-size: 14px;
-    margin-bottom: 5px;
+.footer-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu ul li {
+  margin-bottom: 10px;
+}
+
+.footer-menu ul li a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-menu ul li a:hover {
+  color: #999;
+}
+
+.footer-social {
+  flex: 1 1 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-social h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .footer-social ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer-social ul li {
-    margin-right: 25px;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.footer-social ul li:hover {
-    background-color: rgba(0, 0, 0, 0.521);
-    opacity: 0.7;
-    border-radius: 50%;
-
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .footer-social ul li:last-child {
-    margin: 0px 0px 0px 10px;
+  margin-right: 0;
 }
 
-.footer-social a {
-    color: #fff;
-    font-size: 20px;
-}
-
-.footer-copy {
-    text-align: center;
-    font-size: 12px;
-    margin-top: 20px;
-}
+.footer-social ul li a {
+  color: var(--social-icon-color);
+  font-size: 24px;
+  text-decoration

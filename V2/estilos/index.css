@@ -1248,7 +1248,8 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin: 0 30px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .footer-menu {
@@ -1311,4 +1312,10 @@ footer {
 .footer-social ul li a {
   color: var(--social-icon-color);
   font-size: 24px;
-  text-decoration
+  text-decoration: none;
+}
+
+.footer-copy {
+  text-align: center;
+  margin-top: 20px;
+}

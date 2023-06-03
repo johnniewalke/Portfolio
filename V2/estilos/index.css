@@ -1265,12 +1265,15 @@ footer {
 
 .footer-social ul li {
     margin-right: 25px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .footer-social ul li:hover {
     background-color: rgba(0, 0, 0, 0.521);
     opacity: 0.7;
     border-radius: 50%;
+
 }
 
 .footer-social ul li:last-child {

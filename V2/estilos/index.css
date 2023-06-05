@@ -1226,21 +1226,9 @@ footer {
     margin: 20px 0px 0px 0px;
 }
 
-.numero_whats h4, .numero_whats h2 {
-    color: white;
-}
-.numero_whats>a>h4:hover,.numero_whats>a>h2:hover {
-    color: #c4c4c4;
-}
-
-#qr_whats>img {
-    height: 100px;
-    width: 100px;
-}
-
 /*Fim Teste Estilo de Trabalho*/
 
-/* Novo Footer*/
+/* Footer */
 /* Colors */
 :root {
   --primary-color: #333;
@@ -1248,7 +1236,6 @@ footer {
   --social-icon-color: #fff;
 }
 
-/* Footer */
 #rodape {
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -1265,12 +1252,11 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  max-width: 1200px;
 }
 
 .footer-menu {
   flex: 1 1 100%;
-  max-width: 300px;
+  max-width: 33%;
   margin-bottom: 20px;
 }
 
@@ -1331,7 +1317,16 @@ footer {
   text-decoration: none;
 }
 
-.footer-copy {
-  text-align: center;
-  margin-top: 20px;
+#qr_whats>img {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.numero_whats h4, .numero_whats h2 {
+    margin: 10px 0px;
+    color: white;
+}
+.numero_whats>a>h4:hover,.numero_whats>a>h2:hover {
+    color: #c4c4c4;
 }

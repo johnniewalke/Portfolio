@@ -1164,7 +1164,7 @@ footer {
 .botao-email {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #eaeaea;
+    background-color: #a34c4c;
     color: #333;
     text-decoration: none;
     border-radius: 4px;
@@ -1226,6 +1226,18 @@ footer {
     margin: 20px 0px 0px 0px;
 }
 
+.numero_whats h4, .numero_whats h2 {
+    color: white;
+}
+.numero_whats>a>h4:hover,.numero_whats>a>h2:hover {
+    color: #c4c4c4;
+}
+
+#qr_whats>img {
+    height: 100px;
+    width: 100px;
+}
+
 /*Fim Teste Estilo de Trabalho*/
 
 /* Novo Footer*/
@@ -1241,6 +1253,10 @@ footer {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   padding: 30px 10px;
+}
+
+.footer-copy {
+    margin: 0px auto;
 }
 
 .footer-container {

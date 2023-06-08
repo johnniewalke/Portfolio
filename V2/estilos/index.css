@@ -370,7 +370,7 @@ header>nav>a {
     background-image: url(../img/separacao_red.png);
 }
 
-
+/*****************Portfólio*****************/
 #portfolio {
     display: flex;
     flex-wrap: wrap;
@@ -388,6 +388,11 @@ header>nav>a {
 
 .portfolioItens {
     position: relative;
+    height: 150px;
+    width: 200px;
+    border: rgb(0, 0, 0) solid 1px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 2px gray;
 }
 
 .portfolioItens>img {

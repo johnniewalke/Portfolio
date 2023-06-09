@@ -371,36 +371,55 @@ header>nav>a {
 }
 
 /*****************Portfólio*****************/
-#portfolio {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.portfolioTexto {
+#portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 150px;
+    grid-gap: 10px;
+    overflow: hidden;
+  }
+  
+  .portfolioTexto {
+    grid-column: span 2; /* Ocupa 2 colunas */
+    grid-row: span 2; /* Ocupa 2 linhas */
     height: 400px;
-    width: 300px;
+    width: 400px;
     background-color: #F7414E;
     color: white;
     padding: 20px;
     text-align: center;
     letter-spacing: 4px;
-}
-
-.portfolioItens {
+  }
+  
+  .portfolioItens {
     position: relative;
     height: 150px;
-    width: 200px;
+    width: 100%;
     border: rgb(0, 0, 0) solid 1px;
     border-radius: 40px;
     box-shadow: 2px 2px 2px gray;
-}
-
-.portfolioItens>img {
+    overflow: hidden; /* Oculta conteúdo além da altura definida */
+  }
+  
+  @media screen and (max-width: 600px) {
+    .portfolioItens {
+      height: 100px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .portfolioItens {
+      height: 80px;
+    }
+  }
+  
+  .portfolioItens>img {
     max-width: 100%;
     height: auto;
-}
-
-.portfolioItens::before {
+  }
+  
+  .portfolioItens::before {
     content: "";
     position: absolute;
     top: 0;
@@ -411,14 +430,14 @@ header>nav>a {
     opacity: 0;
     z-index: 1;
     transition: opacity 0.3s;
-    pointer-events: none; /* Permite que os eventos passem através da pseudo-classe */
-}
-
-.portfolioItens:hover::before {
+    pointer-events: none;
+  }
+  
+  .portfolioItens:hover::before {
     opacity: 1;
-}
-
-.botao_Ver_Mais {
+  }
+  
+  .botao_Ver_Mais {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -430,17 +449,20 @@ header>nav>a {
     font-weight: bold;
     border-radius: 5px;
     transition: background-color 0.3s;
-    visibility: hidden; /* Botão invisível por padrão */
-}
+    visibility: hidden;
+  }
   
-.portfolioItens:hover .botao_Ver_Mais {
-    visibility: visible; /* Botão visível ao passar o mouse na div */
-}
-
-.botao_Ver_Mais:hover {
+  .portfolioItens:hover .botao_Ver_Mais {
+    visibility: visible;
+  }
+  
+  .botao_Ver_Mais:hover {
     background-color: #000;
     color: #fff;
-}
+  }
+  
+  /*Fim portfólio*/
+  
 
 #trabalhei {
     margin: 25px 0px;

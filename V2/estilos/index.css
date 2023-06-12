@@ -54,6 +54,43 @@ nav a:hover {
     background-color: #555;
 }
 
+.tcc {
+    text-decoration: none;
+    color: rgb(201, 56, 56);
+    background-color: whitesmoke;
+    border: #989ca0 solid 1px;
+    padding: 5px;
+    border-radius: 40px;
+}
+
+.tcc:hover {
+    color: whitesmoke;
+    background-color: rgb(201, 56, 56);
+    border: #989ca0 solid 1px;
+    padding: 5px;
+    border-radius: 40px;
+}
+
+.bt_premios {
+    color: rgb(255, 187, 0);
+}
+
+.bt_premios:hover {
+    color: whitesmoke;
+}
+
+.premios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.premio {
+
+}
+
 body {
     margin: 0px;
     height: 100vh;
@@ -111,6 +148,8 @@ header>nav>a {
 }
 
 .social {
+    display: flex;
+    align-items: center;
     position: absolute;
     top: 190px;
     flex: 3;
@@ -118,15 +157,11 @@ header>nav>a {
     height: 40px;
     margin: 0px;
     padding: 0px 0px 0px 20px;
-}
-
-.social {
     width: 100%;
     background-color: #010000;
 }
-
-.social>ul>li {
-    color: white;
+.social a {
+    margin: 0px 10px 0px 0px;
 }
 
 .social>a>#imgGitHub:hover {
@@ -509,8 +544,11 @@ header>nav>a {
 
 .teste_Perfil_Mindsight {
     display: flex;
-    width: 100%;
-
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0px auto;
+    width: 760px;
     padding: 10px;
     background-color: rgba(196, 196, 196, 0.514);
     border-radius: 20px;
@@ -618,7 +656,7 @@ header>nav>a {
 }
 
 .corDireita1 {
-    background-color: #d0e3fc;
+    background-color: #96c3ff;
     left: 57%;
     width: 43%;
     text-align: right;
@@ -627,7 +665,6 @@ header>nav>a {
 
 .corDireita1>span {
     margin: 0px 25px;
-    color: #4389DD;
 }
 
 /*Novo teste Conscienciosidade: 41%*/
@@ -638,7 +675,7 @@ header>nav>a {
 }
 
 .corEsquerda2 {
-    background-color: #BBFFFD;
+    background-color: #93fffb;
     left: 0;
     width: 59%;
     text-align: left;
@@ -646,7 +683,6 @@ header>nav>a {
 
 .corEsquerda2>span {
     margin: 0px 25px;
-    color: #45ADAA;
 }
 
 .corDireita2 {
@@ -670,7 +706,7 @@ header>nav>a {
 }
 
 .corEsquerda3 {
-    background-color: #ffdec4;
+    background-color: #ffb47b;
     left: 0;
     width: 48%;
     text-align: left;
@@ -678,7 +714,6 @@ header>nav>a {
 
 .corEsquerda3>span {
     margin: 0px 25px;
-    color: #EF7E31;
 }
 
 .corDireita3 {
@@ -710,11 +745,10 @@ header>nav>a {
 
 .corEsquerda4>span {
     margin: 0px 25px;
-
 }
 
 .corDireita4 {
-    background-color: #fcd5d0;
+    background-color: #ff9f93;
     left: 27%;
     width: 73%;
     text-align: right;
@@ -723,7 +757,6 @@ header>nav>a {
 
 .corDireita4>span {
     margin: 0px 25px;
-    color: #ED7766;
 }
 
 /*Novo teste Socialização: 78%*/
@@ -743,11 +776,10 @@ header>nav>a {
 
 .corEsquerda5>span {
     margin: 0px 25px;
-
 }
 
 .corDireita5 {
-    background-color: #fcd5f7;
+    background-color: #ffaaf4;
     left: 78%;
     width: 22%;
     text-align: right;
@@ -756,7 +788,6 @@ header>nav>a {
 
 .corDireita5>span {
     margin: 0px 25px;
-    color: #DC4BCE;
 }
 
 

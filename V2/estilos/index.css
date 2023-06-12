@@ -82,13 +82,19 @@ nav a:hover {
 .premios {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 
 .premio {
+    display: flex;
+    align-items: center;
+}
 
+.premio span {
+    height: 100px;
+    width: 200px;
+    letter-spacing: 2px;
 }
 
 body {

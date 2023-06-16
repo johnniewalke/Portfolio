@@ -311,6 +311,56 @@ header>nav>a {
     margin: 50px;
 }
 
+.ocupacao ul li {
+    margin: 7px 0px;
+}
+
+.ocupacao {
+  font-family: Arial, sans-serif;
+}
+
+.ocupacao ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ocupacao li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.ocupacao li:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: #c4343c;
+  border-radius: 50%;
+}
+
+.ocupacao li:nth-child(odd):before {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translateY(-50%) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-50%) scale(1.2);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-50%) scale(1);
+    opacity: 1;
+  }
+}
+
 .alinhamentoDireita {
     margin: 0px 0px 0px 30%;
 }
